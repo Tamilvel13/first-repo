@@ -1,4 +1,4 @@
-package org.login;
+ackage org.login;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,11 +14,7 @@ public class BrowserLaunch {
 				driver.manage().window().maximize();
 		
 				WebElement findElement = driver.findElement(By.id("src"));
-				findElement.sendKeys("thanjavur");
-				Select select = new Select (driver.findElement(By.id("src")));
-				select.selectByVisibleText("Old Bus Stand, Thanjavur");
-				
-				
-	}
+				findElement.sendKeys("trichy");
+		
 
-}
+				}}
