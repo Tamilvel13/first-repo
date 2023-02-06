@@ -13,8 +13,7 @@ public class BrowserLaunch {
 				driver.get("https://www.redbus.in/");
 				driver.manage().window().maximize();
 		
-				WebElement findElement = driver.findElement(By.id("src"));
-				findElement.sendKeys("trichy");
+				
 		
 
 				}}
